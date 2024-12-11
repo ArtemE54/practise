@@ -6,7 +6,6 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 swap = True
-        # Если на текущем проходе не было обменов, массив уже отсортирован
         if not swap:
             break
     return arr
